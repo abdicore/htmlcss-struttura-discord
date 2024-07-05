@@ -1,25 +1,52 @@
-
-body {
-    margin: 0
-;
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+
 
 /* header */
 
-
-
 header {
-    height: 100%;
+    height: 50px;
     background-color: lightblue;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.d-flex {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.navigatore {
+
+.conteiner {
+    width: 1200px;
+}
+
+.flex-conteiner {
+    display: flex;
+    width: 700px;
+}
+
+.tasti1 {
     background-color: yellow;
     border: 1px dashed black;
-    flex-basis: 60%;
-    
+    width: 30%;
+}
+
+.tasti2 {
+    background-color: yellow;
+    border: 1px dashed black;
+    width: 60%;
+}
+
+.tasti3 {
+    background-color: yellow;
+    border: 1px dashed black;
 }
