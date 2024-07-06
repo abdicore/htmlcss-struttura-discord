@@ -28,6 +28,16 @@
     padding: 30px 100px;
 }
 
+.flex-conteiner-blue {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 30px 100px;
+    background-color: blue;
+    justify-content: center;
+}
+
+
 .flex-conteiner-grey {
     display: flex;
     flex-direction: row;
@@ -72,7 +82,13 @@ header {
 .box {
     flex-basis: 100%;
     min-height: 400px;
-    background-color: blue;
+    background-color: rgb(42, 157, 17);
+}
+
+.box-centrale {
+    flex-basis: 80%;
+    min-height: 200px;
+    background-color: rgb(157, 17, 26);
 }
 
 .box-leftBG {
