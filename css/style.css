@@ -28,6 +28,14 @@
     padding: 30px 100px;
 }
 
+.flex-conteiner-grey {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 30px 100px;
+    background-color: lightgray;
+}
+
 
 
 /* header */
@@ -61,14 +69,33 @@ header {
 
 /* corpo centrale */
 
-.box-left {
+.box {
+    flex-basis: 100%;
+    min-height: 400px;
+    background-color: blue;
+}
+
+.box-leftBG {
     flex-basis: 60%;
     min-height: 300px;
     background-color: blue;
 }
 
-.box-right {
+.box-leftSM {
     flex-basis: 40%;
+    min-height: 300px;
+    background-color: blue;
+}
+
+
+.box-rightSM {
+    flex-basis: 40%;
+    min-height: 300px;
+    background-color: rgb(21, 174, 49);
+}
+
+.box-rightBG {
+    flex-basis: 60%;
     min-height: 300px;
     background-color: rgb(21, 174, 49);
 }
