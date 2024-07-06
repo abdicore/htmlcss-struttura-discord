@@ -17,7 +17,7 @@
 
 .flex-h-conteiner {
     display: flex;
-    width: 720px;
+    width: 800px;
 }
 
 
@@ -52,7 +52,19 @@
     align-items: flex-start;
     padding: 30px 100px;
     background-color: black;
+    margin-top: 1px;
 }
+
+.flex-conteiner-DW {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 30px 100px;
+    background-color: black;
+    margin-top: 1px;
+}
+
+
 
 
 
@@ -140,4 +152,11 @@ header {
     min-height: 300px;
     background-color: rgb(21, 174, 49);
     border: 1px dashed white;
+}
+
+.footer-box {
+    flex-basis: 100%;
+    min-height: 50px;
+    align-self: flex-end;
+    background-color: rgb(21, 174, 49);
 }
