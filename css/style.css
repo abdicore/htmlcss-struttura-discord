@@ -46,6 +46,14 @@
     background-color: lightgray;
 }
 
+.flex-conteiner-black {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 30px 100px;
+    background-color: black;
+}
+
 
 
 /* header */
@@ -114,4 +122,22 @@ header {
     flex-basis: 60%;
     min-height: 300px;
     background-color: rgb(21, 174, 49);
+}
+
+
+
+/* footer */
+
+.box-40 {
+    flex-basis: 40%;
+    min-height: 300px;
+    background-color: rgb(182, 26, 29);
+    border: 1px dashed black;
+}
+
+.box-20 {
+    flex-basis: 20%;
+    min-height: 300px;
+    background-color: rgb(21, 174, 49);
+    border: 1px dashed white;
 }
